@@ -1,0 +1,25 @@
+# Place at: suprabhat02/suprabhat02/.github/workflows/blog-posts.yml
+# Pulls the latest posts from suprabhat-dev.com into the profile README.
+name: Latest blog posts
+
+on:
+  schedule:
+    - cron: "17 3 * * *" # daily, 08:47 IST
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: gautamkrishnar/blog-post-workflow@v1
+        with:
+          feed_list: "https://suprabhat-dev.com/rss.xml"
+          max_post_count: 5
+          # Commit as you, so the repo shows only your name (no bot author)
+          committer_username: "suprabhat02"
+          committer_email: "suprabhat02@users.noreply.github.com"
+          commit_message: "docs: refresh latest posts"
