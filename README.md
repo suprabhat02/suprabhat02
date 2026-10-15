@@ -86,6 +86,11 @@
 ### 📝 Latest writing
 
 <!-- BLOG-POST-LIST:START -->
+- [Accessibility in React: What Most Developers Skip](https://suprabhat-dev.com/blog/accessibility-in-react-what-developers-skip/)
+- [Clean UI Design Principles Every Frontend Engineer Should Know](https://suprabhat-dev.com/blog/clean-ui-design-principles-frontend/)
+- [Cloud Web Interface Design: Best Practices for Scalable, Accessible UIs](https://suprabhat-dev.com/blog/cloud-web-interface-design-best-practices/)
+- [What to Look for When Hiring a Frontend Engineer](https://suprabhat-dev.com/blog/hiring-senior-frontend-engineer/)
+- [How to Build Scalable React UI Without Overengineering](https://suprabhat-dev.com/blog/frontend-best-practices-clean-ui/)
 <!-- BLOG-POST-LIST:END -->
 
 <p align="right"><a href="https://suprabhat-dev.com">More on suprabhat-dev.com →</a></p>
