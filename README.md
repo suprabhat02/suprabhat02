@@ -65,7 +65,7 @@
 
 - One site for three business lines — **education, ayurvedic wellness and office appliances** — plus about, gallery and contact
 - Token-based **design system** built on the brand palette, with dark/light mode and a live accent-colour picker
-- Type-safe forms with React Hook Form + Zod; statically exported and deployed on Netlify
+- Type-safe forms with React Hook Form + Zod; statically exported and deployed to GitHub Pages with GitHub Actions
 
 ---
 
