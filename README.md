@@ -21,13 +21,13 @@ I build type-safe, production-grade UIs that work for everyone — and ship open
 
 ## ⚡ Current focus
 
-- 📦 Growing **react-smart-copy** — headless, accessible clipboard primitives for React.
+- 📦 Building headless React packages — **react-smart-copy** for the clipboard, **react-inp-chunker** for responsiveness.
 - ♿ Accessibility-first UI — WCAG 2.1 AA, screen readers, keyboard navigation and RTL layouts.
-- 🚀 Core Web Vitals and static-first performance.
+- 🚀 Core Web Vitals — especially Interaction to Next Paint (INP) — and static-first performance.
 
 ---
 
-## ⭐ Featured project
+## 📦 Open-source packages
 
 ### [react-smart-copy](https://github.com/suprabhat02/react-smart-copy)
 
@@ -42,9 +42,25 @@ A headless React primitive for the **whole moment around the clipboard** — not
 - 🧠 **State machines** (idle → copying → copied → error → retry) with thin React bindings.
 - 📊 **Table copy** that pastes into Excel and Google Sheets as real cells — works with AG Grid and TanStack Table.
 - 🎛️ **Advanced controls** — `useCopyInterceptor`, `useDragCopy` and SVG/DOM-to-PNG capture.
-- 🛡️ **Production ready** — SSR-safe, ~3.2 kB `useCopy`, zero dependencies, 100% test coverage, WCAG 2.1 AA verified.
+- 🛡️ **Production ready** — SSR-safe, ~4.2 kB `useCopy`, zero dependencies, 100% test coverage, WCAG 2.1 AA verified.
 
 📖 **[Docs & live demos →](https://suprabhat02.github.io/react-smart-copy)**
+
+### [react-inp-chunker](https://github.com/suprabhat02/react-inp-chunker)
+
+Run heavy JavaScript **without freezing your React app** — work is split into few-millisecond slices that hand the main thread back to the browser, so clicks and typing stay responsive and INP stays good.
+
+[![npm version](https://img.shields.io/npm/v/react-inp-chunker?style=flat-square&color=CB3837)](https://www.npmjs.com/package/react-inp-chunker)
+[![CI](https://img.shields.io/github/actions/workflow/status/suprabhat02/react-inp-chunker/ci.yml?branch=main&style=flat-square&label=CI)](https://github.com/suprabhat02/react-inp-chunker/actions/workflows/ci.yml)
+![coverage 100%](https://img.shields.io/badge/coverage-100%25-brightgreen?style=flat-square)
+![React 18 & 19](https://img.shields.io/badge/React-18%20%26%2019-61DAFB?style=flat-square&logo=react&logoColor=black)
+
+- ⏱️ **`useChunkedTask`** for lists and **`useDeferredTask`** for everything else — pause, resume and cancel built in.
+- 🧭 **Best yield available** — `scheduler.yield()` where supported, `MessageChannel` in Safari, `setTimeout` as the last resort.
+- 🧩 **Framework-agnostic core** — `react-inp-chunker/core` runs without React, in Web Workers and Node too.
+- 🛡️ **Production ready** — ~2.6 kB for everything, zero dependencies, SSR-safe, 100% test coverage, signed npm provenance.
+
+📖 **[Docs & live playground →](https://suprabhat02.github.io/react-inp-chunker/)**
 
 ---
 
@@ -96,4 +112,4 @@ A headless React primitive for the **whole moment around the clipboard** — not
 
 ---
 
-If my open-source work has helped you ship faster, consider dropping a ⭐ on [react-smart-copy](https://github.com/suprabhat02/react-smart-copy).
+If my open-source work has helped you ship faster, consider dropping a ⭐ on [react-smart-copy](https://github.com/suprabhat02/react-smart-copy) or [react-inp-chunker](https://github.com/suprabhat02/react-inp-chunker).
