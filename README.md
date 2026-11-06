@@ -101,11 +101,11 @@ Run heavy JavaScript **without freezing your React app** — work is split into 
 ## 📝 Latest writing
 
 <!-- BLOG-POST-LIST:START -->
+- [React INP Benchmark: Chunking vs startTransition vs scheduler.yield](https://suprabhat-dev.com/blog/react-inp-benchmark/)
 - [Accessibility in React: What Most Developers Skip](https://suprabhat-dev.com/blog/accessibility-in-react-what-developers-skip/)
 - [Clean UI Design Principles Every Frontend Engineer Should Know](https://suprabhat-dev.com/blog/clean-ui-design-principles-frontend/)
 - [Cloud Web Interface Design: Best Practices for Scalable, Accessible UIs](https://suprabhat-dev.com/blog/cloud-web-interface-design-best-practices/)
 - [What to Look for When Hiring a Frontend Engineer](https://suprabhat-dev.com/blog/hiring-senior-frontend-engineer/)
-- [How to Build Scalable React UI Without Overengineering](https://suprabhat-dev.com/blog/frontend-best-practices-clean-ui/)
 <!-- BLOG-POST-LIST:END -->
 
 **[Read more on suprabhat-dev.com →](https://suprabhat-dev.com)**
