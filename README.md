@@ -1,10 +1,11 @@
-# Hi, I'm Suprabhat 👋
+# Hi, I'm Suprabhat Kumar 👋
 
 **Senior Frontend Engineer** · React · TypeScript · Next.js · Azure
 
 I build type-safe, production-grade UIs that work for everyone — and ship open-source primitives that other developers depend on.
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-suprabhat--dev.com-0A0A0A?style=flat-square&logo=astro&logoColor=white)](https://suprabhat-dev.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-suprabhatkumar-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/suprabhatkumar/)
 [![npm](https://img.shields.io/badge/npm-suprabhat02-CB3837?style=flat-square&logo=npm&logoColor=white)](https://www.npmjs.com/~suprabhat02)
 [![X](https://img.shields.io/badge/X-@SuprabhatKarn97-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/SuprabhatKarn97)
 [![dev.to](https://img.shields.io/badge/dev.to-suprabhat02-0A0A0A?style=flat-square&logo=devdotto&logoColor=white)](https://dev.to/suprabhat02)
